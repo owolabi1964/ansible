@@ -1,2 +1,6 @@
----
-# This is a new test
+- name: Hello World Copied
+  hosts: all
+  tasks:
+    - name: Hello Message
+      debug:
+        msg: "Hello World!"
